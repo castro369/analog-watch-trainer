@@ -24,7 +24,7 @@ function setRotation(element, rotationRatio) {
 
 // Function to generate random times
 function getRandomTime() {
-  const randHours = Math.floor(Math.random() * 12) // 0-23
+  const randHours = Math.floor(Math.random() * 12) // 0-11
   const randMinutes = Math.floor(Math.random() * 60) // 0-59
     
 	return [randHours, randMinutes]
